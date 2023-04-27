@@ -1,0 +1,201 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* Navbar */
+#navbar{
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    background:	#f4f1de;
+    position: relative;
+}
+.navbar .navbar-aside{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .navbar-aside .logo{
+    display: flex;
+    margin: 1vh 1vw;
+}
+.navbar .navbar-aside .logo img{
+    display: flex;
+    width: 5vw;
+    height: auto;
+}
+.navbar .navbar-aside ul{
+    display: flex;
+    flex-direction: row;
+}
+.navbar .navbar-aside ul li{
+    display: flex;
+    margin: 2.5vh 2vw;
+}
+.navbar .navbar-aside ul li a{
+    display: flex;
+    text-decoration: none;
+    color: 	#000000;
+    font-size: 1.35rem;
+    font-weight: bolder;
+}
+/* Font Size */
+.font-size .title h1{
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    margin: 2vh 0;
+}
+.font-size p{
+    display: flex;
+    font-size: 1.5rem;
+}
+/* Landing */
+#landing{
+    display: flex;
+    flex-direction: column;
+    height: 87.5vh;
+    background-color: #f7c6a5;
+    padding: 2.5vh 2vw;
+}
+#landing .landing-aside{
+    display: flex;
+    flex-direction: row;
+}
+#landing .landing-aside .image-logo img{
+    display: flex;
+    width: 25vw;
+    margin: 0 5vw;
+    height: auto;
+}
+#landing .landing-aside .description, #landing .landing-aside .description2{
+    display: flex;
+    margin: 5vh 0;
+}
+#landing .landing-aside .description p{
+    display: flex;
+    text-align: justify;
+    margin: 0 0 0 5vw;
+}
+#landing .landing-aside .description2 p{
+    display: flex;
+    text-align: justify;
+    margin: 0 5vw 0 0;
+}
+/* Event */
+#event{
+    display: flex;
+    flex-direction: column;
+    height: 87.5vh;
+    background-color: #c3d6db;
+    padding: 2.5vh 2vw;
+}
+
+/* Contact Us */
+#contactUs{
+    display: flex;
+    flex-direction: column;
+    height: 87.5vh;
+    background-color: #70dfad;
+    padding: 2.5vh 2vw;
+}
+/* FirstName & LastName*/
+.form-wrapper .form .first-last{
+    display: flex;
+    justify-content: space-between;
+}
+.form-wrapper .form .first-last .first-name{
+    width: 18vw;
+    height: 10vh;
+}
+.form-wrapper .form .first-last .last-name{
+    width: 18vw;
+    height: 10vh;
+    margin: 0 0 1vh 0;
+}
+/* FirstName, LastName */
+.form .first-name label, .form .last-name label{
+    display: flex;
+    font-style: normal;
+    color: #0081C9;
+    font-weight: 600;
+    margin: 1vh 0;
+    font-size: 1rem;
+}
+.form .first-name input, .form .last-name input{
+    display: flex;
+    font-style: normal;
+    color: #707070;
+    border: 2px solid #E3E3E3;
+    padding: 2vh 1vw;
+    margin: 0 0 1vh 0;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 16vw;
+}
+/* Email */
+.form .e-mail label{
+    display: flex;
+    font-style: normal;
+    color: #0081C9;
+    font-weight: 600;
+    margin: 3.5vh 0 1vh 0;
+    font-size: 1rem;
+}
+.form .e-mail input{
+    display: flex;
+    font-style: normal;
+    color: #707070;
+    border: 2px solid #E3E3E3;
+    padding: 2vh 1vw;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 38vw;
+}
+/* Password - Confirm Password */
+.form .password label, .form .password-confirm label{
+    display: flex;
+    font-style: normal;
+    color: #0081C9;
+    font-weight: 600;
+    margin: 3.5vh 0 1vh 0;
+    font-size: 1rem;
+}
+.form .password input, .form .password-confirm input{
+    display: flex;
+    font-style: normal;
+    color: #707070;
+    border: 2px solid #E3E3E3;
+    padding: 2vh 1vw;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 38vw;
+}
+/* next-button */
+.form-wrapper .next{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1vh 0;
+}
+
+.form-wrapper .next button{
+    display: flex;
+    background-color: #FFC93C;
+    border: none;
+    border-radius: 8px;
+    margin: 3.5vh 0;
+    padding: 2vh 2.5vw;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0 0 4px #707070;
+}
+.form-wrapper .next button:hover{
+    transition: 0.5s;
+    background-color: #0081C9;
+    color: white;
+    border: none;
+}
