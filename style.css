@@ -99,34 +99,61 @@
     background-color: #70dfad;
     padding: 2.5vh 2vw;
 }
+#contactUs .title{
+    display: flex;
+    justify-content: center;
+}
+#contactUs .title h1{
+    display: flex;
+    font-size: 3rem;
+    margin: 2vh 0;
+    color: #274e13;
+}
+#contactUs .title span{
+    display: flex;
+    font-size: 3rem;
+    margin: 2vh 0 2vh 1vw;
+    color: #38761d;
+}
+
+    /* Form */
 /* FirstName & LastName*/
-.form-wrapper .form .first-last{
+#event .form-wrapper{
+    width: 40.5vw;
+    margin: 2vh 25vw;
+    padding: 2.5vw;
+    background-color: #f4f1de;
+    border-radius: 15px;
+    box-shadow: 0 0 16px black;
+}
+#event .form-wrapper .form .first-last{
     display: flex;
     justify-content: space-between;
+    width: 40vw;
 }
-.form-wrapper .form .first-last .first-name{
+#event .form-wrapper .form .first-last .first-name{
     width: 18vw;
     height: 10vh;
 }
-.form-wrapper .form .first-last .last-name{
+#event .form-wrapper .form .first-last .last-name{
     width: 18vw;
     height: 10vh;
     margin: 0 0 1vh 0;
 }
 /* FirstName, LastName */
-.form .first-name label, .form .last-name label{
+#event .form .first-name label, .form .last-name label{
     display: flex;
     font-style: normal;
-    color: #0081C9;
+    color: 	#1d536c;
     font-weight: 600;
     margin: 1vh 0;
-    font-size: 1rem;
+    font-size: 1.75rem;
 }
-.form .first-name input, .form .last-name input{
+#event .form .first-name input, .form .last-name input{
     display: flex;
     font-style: normal;
-    color: #707070;
-    border: 2px solid #E3E3E3;
+    color: #3e7b8e;
+    border: 2px solid #3e7b8e;
     padding: 2vh 1vw;
     margin: 0 0 1vh 0;
     border-radius: 6px;
@@ -135,19 +162,19 @@
     width: 16vw;
 }
 /* Email */
-.form .e-mail label{
+#event .form .e-mail label{
     display: flex;
     font-style: normal;
-    color: #0081C9;
+    color:#1d536c;
     font-weight: 600;
     margin: 3.5vh 0 1vh 0;
-    font-size: 1rem;
+    font-size: 1.75rem;
 }
-.form .e-mail input{
+#event .form .e-mail input{
     display: flex;
     font-style: normal;
-    color: #707070;
-    border: 2px solid #E3E3E3;
+    color: #3e7b8e;
+    border: 2px solid #3e7b8e;
     padding: 2vh 1vw;
     border-radius: 6px;
     font-weight: 400;
@@ -155,19 +182,19 @@
     width: 38vw;
 }
 /* Password - Confirm Password */
-.form .password label, .form .password-confirm label{
+#event .form .phoneNo label, .form .password-confirm label{
     display: flex;
     font-style: normal;
-    color: #0081C9;
+    color:#1d536c;
     font-weight: 600;
-    margin: 3.5vh 0 1vh 0;
-    font-size: 1rem;
+    margin: 2.5vh 0 1vh 0;
+    font-size: 1.75rem;
 }
-.form .password input, .form .password-confirm input{
+#event .form .phoneNo input, .form .password-confirm input{
     display: flex;
     font-style: normal;
-    color: #707070;
-    border: 2px solid #E3E3E3;
+    color: #3e7b8e;
+    border: 2px solid #3e7b8e;
     padding: 2vh 1vw;
     border-radius: 6px;
     font-weight: 400;
@@ -175,27 +202,26 @@
     width: 38vw;
 }
 /* next-button */
-.form-wrapper .next{
+#event .form-wrapper .next{
     display: flex;
     justify-content: flex-end;
     margin: 1vh 0;
 }
-
-.form-wrapper .next button{
+#event .form-wrapper .next button{
     display: flex;
-    background-color: #FFC93C;
+    background-color: #3e7b8e;
     border: none;
     border-radius: 8px;
-    margin: 3.5vh 0;
+    margin: 4vh 0 0 0;
     padding: 2vh 2.5vw;
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
     box-shadow: 0 0 4px #707070;
 }
-.form-wrapper .next button:hover{
-    transition: 0.5s;
-    background-color: #0081C9;
+#event .form-wrapper .next button:hover{
+    transition: 1s;
+    background-color:#64accd;
     color: white;
     border: none;
 }

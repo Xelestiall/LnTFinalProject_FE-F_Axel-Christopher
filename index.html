@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image" href="assets/Landing1.png"/>
         <title>PuddingFest - LandingPage</title>
     </head>
     <body>
@@ -45,50 +46,67 @@
             <div class="title">
                 <h1>Events</h1>
             </div>
-            <div class="carousel">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti rerum autem natus quas accusamus. Eum obcaecati nobis itaque deleniti alias consectetur numquam dignissimos explicabo voluptate, aperiam accusantium nam. Obcaecati, nulla.</p>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <img src="assets/background1.jpg" alt="Event 1">
+                    <img src="assets/background2.jpg" alt="Event 2">
+                    <img src="assets/background3.avif" alt="Event 3">
+                    <img src="assets/background4.jpg" alt="Event 4  ">
+                </div>
             </div>
+            <section class="form-wrapper">
+                <form class="form" autocomplete="off" id="register1">
+                    <div class="first-last">
+                        <div class="first-name">
+                            <label for="firstName">First Name</label>
+                            <input type="text" placeholder="Enter your first name here" id="firstName">
+                        </div>
+                        <div class="last-name">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" placeholder="Enter your last name here" id="lastName">
+                        </div>
+                    </div>
+                    <div class="e-mail">
+                        <label for="emailAddress">Email</label>
+                        <input type="email" placeholder="Enter your email name here (Example : LnTFinalProject@gmail.com)" id="emailAddress">
+                    </div>
+                    <div class="phoneNo">
+                        <label for="phoneNo">Phone Number</label>
+                        <input type="number" placeholder="Input must be number (Example : 08**********)" id="phoneNo">
+                        </div>
+                    </div>
+                    <div class="event-chosen">
+                        <label for="confirm-pass">Choose Event</label>
+                        <select name="kota" id="kota">
+                        <option value="" selected="selected" >Please Choose the event you most wanted!</option>
+                            <optgroup label="Domisili">
+                                <option value="Banten">Banten</option>
+                                <option value="Jakarta">Jakarta</option>
+                                <option value="Bandung">Bandung</option>
+                                <option value="Semarang">Semarang</option>
+                                <option value="Yogyakarta">Yogyakarta</option>
+                                <option value="Surabaya">Surabaya</option>
+                                <option value="Malang">Malang</option>
+                                <option value="Bali">Bali</option>
+                                <option value="Nusa Tenggara">Nusa Tenggara</option>
+                                <option value="Pontianak">Pontianak</option>
+                                <option value="Samarinda">Samarinda</option>
+                                <option value="Jakarta">Banjarmasin</option>
+                                <option value="Palangkaraya">Palangkaraya</option>
+                                <option value="Others">Lainnya</option>
+                            </optgroup>
+                    </select>
+                    </div>
+                    <div class="next" onclick="">
+                        <button type="button">Submit</button>
+                    </div>
+                </form>
+            </section>
         </section>
-        <section id="contactUs" class="font-size">
+        <section id="contactUs">
             <div class="title">
                 <h1>Contact</h1><span>Us</span>
             </div>
-            <form class="form" autocomplete="off" id="register1">
-                <div class="first-last">
-                    <div class="first-name">
-                        <label for="firstName">First Name</label>
-                        <input type="text" placeholder="Enter your first name here" id="firstName">
-                    </div>
-                    <div class="last-name">
-                        <label for="lastName">Last Name</label>
-                        <input type="text" placeholder="Enter your last name here" id="lastName">
-                    </div>
-                </div>
-                <div class="e-mail">
-                    <label for="emailAddress">Email</label>
-                    <input type="text" placeholder="Enter your email name here (Ex : bncc123@gmail.com)" id="emailAddress">
-                </div>
-                <div class="password">
-                    <label for="password">Password</label>
-                    <input type="password" placeholder="Enter your password here (Ex : Bncc123_)" id="password">
-                    <div class="visibility" onclick="visible()">
-                        <i class="fa-solid fa-eye" id="hide1" ></i>
-                        <i class="fa-solid fa-eye-slash" id="hide2" ></i>
-                    </div>
-                </div>
-                <div class="password-confirm">
-                    <label for="confirm-pass">Confirm Password</label>
-                    <input type="password" placeholder="Enter your password here (Ex : Bncc123_)" id="confirmpass">
-                    <div class="visibility2" onclick="visible2()">
-                        <i class="fa-solid fa-eye" id="hide3"></i>
-                        <i class="fa-solid fa-eye-slash" id="hide4"></i>
-                    </div>
-                </div>
-                <div class="next" onclick="registerP2()">
-                    <button type="button">Next</button>
-                </div>
-
-            </form>
         </section>
     </body>
 </html>
